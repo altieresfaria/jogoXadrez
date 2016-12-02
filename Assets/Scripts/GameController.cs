@@ -35,8 +35,8 @@ using UnityEngine.UI;
         Util.instanciarTorre('a', 1, Cor.Branca, partida, torreBranca);
         Util.instanciarTorre('h', 1, Cor.Branca, partida, torreBranca);
 
+        Util.instanciarRei('a', 8, Cor.Preta, partida, torrePreta);
         Util.instanciarRei('e', 8, Cor.Preta, partida, reiPreto);
-        Util.instanciarTorre('a', 8, Cor.Preta, partida, torrePreta);
         Util.instanciarTorre('h', 8, Cor.Preta, partida, torrePreta);
 
 
@@ -83,8 +83,20 @@ using UnityEngine.UI;
                     peca.transform.position = Util.posicaoNaCena(coluna, linha);
 
                     pecaEscolhida = null;
-                    estado = Estado.AguardandoJogada;
-                    informarAguardando();
+
+                    if (partida.terminada)
+                    {
+                        estado = Estado.GameOver;
+                        txtMsg.text = "Vencedor: " + partida.jogadorAtual;
+                        txtXeque.text = "XEQUEMATE";
+                    }
+                    else
+                    {
+                        estado = Estado.AguardandoJogada;
+                        informarAguardando();
+                        txtXeque.text = (partida.xeque) ? "XEQUE" : "";
+                    }
+
                 }
                 catch (TabuleiroException e) {
                     peca.transform.position = Util.posicaoNaCena(origem.coluna, origem.linha);
