@@ -1,0 +1,322 @@
+fileFormatVersion: 2
+guid: db88bfcd37bb5b8499792af37358a0b8
+timeCreated: 1480701502
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cone001
+    100004: Fbx01
+    100006: Fbx01_Footsteps
+    100008: Fbx01_Head
+    100010: Fbx01_HeadNub
+    100012: Fbx01_L_Calf
+    100014: Fbx01_L_Clavicle
+    100016: Fbx01_L_Eye
+    100018: Fbx01_L_Finger0
+    100020: Fbx01_L_Finger01
+    100022: Fbx01_L_Finger02
+    100024: Fbx01_L_Finger0Nub
+    100026: Fbx01_L_Finger1
+    100028: Fbx01_L_Finger11
+    100030: Fbx01_L_Finger12
+    100032: Fbx01_L_Finger1Nub
+    100034: Fbx01_L_Finger2
+    100036: Fbx01_L_Finger21
+    100038: Fbx01_L_Finger22
+    100040: Fbx01_L_Finger2Nub
+    100042: Fbx01_L_Finger3
+    100044: Fbx01_L_Finger31
+    100046: Fbx01_L_Finger32
+    100048: Fbx01_L_Finger3Nub
+    100050: Fbx01_L_Finger4
+    100052: Fbx01_L_Finger41
+    100054: Fbx01_L_Finger42
+    100056: Fbx01_L_Finger4Nub
+    100058: Fbx01_L_Foot
+    100060: Fbx01_L_Forearm
+    100062: Fbx01_L_Hand
+    100064: Fbx01_L_Thigh
+    100066: Fbx01_L_Toe0
+    100068: Fbx01_L_Toe0Nub
+    100070: Fbx01_L_UpperArm
+    100072: Fbx01_Neck
+    100074: Fbx01_Neck1
+    100076: Fbx01_Pelvis
+    100078: Fbx01_R_Calf
+    100080: Fbx01_R_Clavicle
+    100082: Fbx01_R_Eye
+    100084: Fbx01_R_Finger0
+    100086: Fbx01_R_Finger01
+    100088: Fbx01_R_Finger02
+    100090: Fbx01_R_Finger0Nub
+    100092: Fbx01_R_Finger1
+    100094: Fbx01_R_Finger11
+    100096: Fbx01_R_Finger12
+    100098: Fbx01_R_Finger1Nub
+    100100: Fbx01_R_Finger2
+    100102: Fbx01_R_Finger21
+    100104: Fbx01_R_Finger22
+    100106: Fbx01_R_Finger2Nub
+    100108: Fbx01_R_Finger3
+    100110: Fbx01_R_Finger31
+    100112: Fbx01_R_Finger32
+    100114: Fbx01_R_Finger3Nub
+    100116: Fbx01_R_Finger4
+    100118: Fbx01_R_Finger41
+    100120: Fbx01_R_Finger42
+    100122: Fbx01_R_Finger4Nub
+    100124: Fbx01_R_Foot
+    100126: Fbx01_R_Forearm
+    100128: Fbx01_R_Hand
+    100130: Fbx01_R_Thigh
+    100132: Fbx01_R_Toe0
+    100134: Fbx01_R_Toe0Nub
+    100136: Fbx01_R_UpperArm
+    100138: Fbx01_Spine
+    100140: Fbx01_Spine1
+    100142: Fbx01_Spine2
+    100144: H_DDS_MidRes
+    100146: Lights
+    100148: Lights 1
+    100150: Lights 2
+    100152: Lights 3
+    100154: Lights 4
+    100156: Lights 5
+    100158: Lights 6
+    100160: Lights 7
+    100162: m_L_eye
+    100164: m_L_gland
+    100166: m_L_trans
+    100168: m_R_eye
+    100170: m_R_gland
+    100172: m_R_trans
+    100174: m_TeethDown
+    100176: m_TeethUp
+    100178: spotLight1
+    100180: spotLight2
+    100182: spotLight2 1
+    100184: spotLight2 2
+    100186: spotLight2 3
+    100188: spotLight2 4
+    100190: spotLight2 5
+    100192: spotLight2 6
+    100194: spotLight2 7
+    100196: spotLight3
+    100198: spotLight3 1
+    100200: spotLight3 2
+    100202: spotLight3 3
+    100204: spotLight3 4
+    100206: spotLight3 5
+    100208: spotLight3 6
+    100210: spotLight3 7
+    100212: spotLight4
+    100214: spotLight4 1
+    100216: spotLight4 2
+    100218: spotLight4 3
+    100220: spotLight4 4
+    100222: spotLight4 5
+    100224: spotLight4 6
+    100226: spotLight4 7
+    400000: //RootNode
+    400002: Cone001
+    400004: Fbx01
+    400006: Fbx01_Footsteps
+    400008: Fbx01_Head
+    400010: Fbx01_HeadNub
+    400012: Fbx01_L_Calf
+    400014: Fbx01_L_Clavicle
+    400016: Fbx01_L_Eye
+    400018: Fbx01_L_Finger0
+    400020: Fbx01_L_Finger01
+    400022: Fbx01_L_Finger02
+    400024: Fbx01_L_Finger0Nub
+    400026: Fbx01_L_Finger1
+    400028: Fbx01_L_Finger11
+    400030: Fbx01_L_Finger12
+    400032: Fbx01_L_Finger1Nub
+    400034: Fbx01_L_Finger2
+    400036: Fbx01_L_Finger21
+    400038: Fbx01_L_Finger22
+    400040: Fbx01_L_Finger2Nub
+    400042: Fbx01_L_Finger3
+    400044: Fbx01_L_Finger31
+    400046: Fbx01_L_Finger32
+    400048: Fbx01_L_Finger3Nub
+    400050: Fbx01_L_Finger4
+    400052: Fbx01_L_Finger41
+    400054: Fbx01_L_Finger42
+    400056: Fbx01_L_Finger4Nub
+    400058: Fbx01_L_Foot
+    400060: Fbx01_L_Forearm
+    400062: Fbx01_L_Hand
+    400064: Fbx01_L_Thigh
+    400066: Fbx01_L_Toe0
+    400068: Fbx01_L_Toe0Nub
+    400070: Fbx01_L_UpperArm
+    400072: Fbx01_Neck
+    400074: Fbx01_Neck1
+    400076: Fbx01_Pelvis
+    400078: Fbx01_R_Calf
+    400080: Fbx01_R_Clavicle
+    400082: Fbx01_R_Eye
+    400084: Fbx01_R_Finger0
+    400086: Fbx01_R_Finger01
+    400088: Fbx01_R_Finger02
+    400090: Fbx01_R_Finger0Nub
+    400092: Fbx01_R_Finger1
+    400094: Fbx01_R_Finger11
+    400096: Fbx01_R_Finger12
+    400098: Fbx01_R_Finger1Nub
+    400100: Fbx01_R_Finger2
+    400102: Fbx01_R_Finger21
+    400104: Fbx01_R_Finger22
+    400106: Fbx01_R_Finger2Nub
+    400108: Fbx01_R_Finger3
+    400110: Fbx01_R_Finger31
+    400112: Fbx01_R_Finger32
+    400114: Fbx01_R_Finger3Nub
+    400116: Fbx01_R_Finger4
+    400118: Fbx01_R_Finger41
+    400120: Fbx01_R_Finger42
+    400122: Fbx01_R_Finger4Nub
+    400124: Fbx01_R_Foot
+    400126: Fbx01_R_Forearm
+    400128: Fbx01_R_Hand
+    400130: Fbx01_R_Thigh
+    400132: Fbx01_R_Toe0
+    400134: Fbx01_R_Toe0Nub
+    400136: Fbx01_R_UpperArm
+    400138: Fbx01_Spine
+    400140: Fbx01_Spine1
+    400142: Fbx01_Spine2
+    400144: H_DDS_MidRes
+    400146: Lights
+    400148: Lights 1
+    400150: Lights 2
+    400152: Lights 3
+    400154: Lights 4
+    400156: Lights 5
+    400158: Lights 6
+    400160: Lights 7
+    400162: m_L_eye
+    400164: m_L_gland
+    400166: m_L_trans
+    400168: m_R_eye
+    400170: m_R_gland
+    400172: m_R_trans
+    400174: m_TeethDown
+    400176: m_TeethUp
+    400178: spotLight1
+    400180: spotLight2
+    400182: spotLight2 1
+    400184: spotLight2 2
+    400186: spotLight2 3
+    400188: spotLight2 4
+    400190: spotLight2 5
+    400192: spotLight2 6
+    400194: spotLight2 7
+    400196: spotLight3
+    400198: spotLight3 1
+    400200: spotLight3 2
+    400202: spotLight3 3
+    400204: spotLight3 4
+    400206: spotLight3 5
+    400208: spotLight3 6
+    400210: spotLight3 7
+    400212: spotLight4
+    400214: spotLight4 1
+    400216: spotLight4 2
+    400218: spotLight4 3
+    400220: spotLight4 4
+    400222: spotLight4 5
+    400224: spotLight4 6
+    400226: spotLight4 7
+    2300000: Cone001
+    3300000: Cone001
+    4300000: Cone001
+    4300002: m_TeethDown
+    4300004: m_TeethUp
+    4300006: m_L_gland
+    4300008: m_L_eye
+    4300010: m_L_trans
+    4300012: m_R_gland
+    4300014: m_R_eye
+    4300016: m_R_trans
+    4300018: H_DDS_MidRes
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: H_DDS_MidRes
+    13700002: m_L_eye
+    13700004: m_L_gland
+    13700006: m_L_trans
+    13700008: m_R_eye
+    13700010: m_R_gland
+    13700012: m_R_trans
+    13700014: m_TeethDown
+    13700016: m_TeethUp
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
