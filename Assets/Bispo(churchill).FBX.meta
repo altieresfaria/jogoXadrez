@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: e43caf1f5bb12b44f80f44afe6d82e32
+timeCreated: 1480721112
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cone001
+    100004: Cube.004
+    100006: helicoptero
+    100008: Lights
+    100010: Lights 1
+    100012: Lights 2
+    100014: mainbody
+    100016: mainbody.001
+    100018: mainbody.002
+    100020: Plane
+    100022: rear rotor
+    100024: rear rotor.001
+    100026: rocket
+    100028: rocket.001
+    100030: rocket.002
+    100032: rocket.003
+    100034: rocket.004
+    100036: rocket.005
+    100038: rocket.006
+    100040: rocket.007
+    100042: rotor
+    100044: spotLight2
+    100046: spotLight2 1
+    100048: spotLight2 2
+    100050: spotLight3
+    100052: spotLight3 1
+    100054: spotLight3 2
+    100056: spotLight4
+    100058: spotLight4 1
+    100060: spotLight4 2
+    400000: //RootNode
+    400002: Cone001
+    400004: Cube.004
+    400006: helicoptero
+    400008: Lights
+    400010: Lights 1
+    400012: Lights 2
+    400014: mainbody
+    400016: mainbody.001
+    400018: mainbody.002
+    400020: Plane
+    400022: rear rotor
+    400024: rear rotor.001
+    400026: rocket
+    400028: rocket.001
+    400030: rocket.002
+    400032: rocket.003
+    400034: rocket.004
+    400036: rocket.005
+    400038: rocket.006
+    400040: rocket.007
+    400042: rotor
+    400044: spotLight2
+    400046: spotLight2 1
+    400048: spotLight2 2
+    400050: spotLight3
+    400052: spotLight3 1
+    400054: spotLight3 2
+    400056: spotLight4
+    400058: spotLight4 1
+    400060: spotLight4 2
+    2300000: Cone001
+    2300002: Cube.004
+    2300004: mainbody
+    2300006: mainbody.001
+    2300008: mainbody.002
+    2300010: Plane
+    2300012: rear rotor
+    2300014: rear rotor.001
+    2300016: rocket
+    2300018: rocket.001
+    2300020: rocket.002
+    2300022: rocket.003
+    2300024: rocket.004
+    2300026: rocket.005
+    2300028: rocket.006
+    2300030: rocket.007
+    2300032: rotor
+    3300000: Cone001
+    3300002: Cube.004
+    3300004: mainbody
+    3300006: mainbody.001
+    3300008: mainbody.002
+    3300010: Plane
+    3300012: rear rotor
+    3300014: rear rotor.001
+    3300016: rocket
+    3300018: rocket.001
+    3300020: rocket.002
+    3300022: rocket.003
+    3300024: rocket.004
+    3300026: rocket.005
+    3300028: rocket.006
+    3300030: rocket.007
+    3300032: rotor
+    4300000: Cone001
+    4300002: mainbody.002
+    4300004: rocket
+    4300006: mainbody.001
+    4300008: rear rotor
+    4300010: rocket.007
+    4300012: rocket.006
+    4300014: rocket.005
+    4300016: rocket.004
+    4300018: rocket.003
+    4300020: rocket.002
+    4300022: rocket.001
+    4300024: mainbody
+    4300026: rear rotor.001
+    4300028: rotor
+    4300030: Plane
+    4300032: Cube.004
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

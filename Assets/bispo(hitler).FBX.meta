@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: a0828b5ec4231324bb2155e7f6042d5e
+timeCreated: 1480721106
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cone001
+    100004: Cube.004
+    100006: helicoptero
+    100008: Lights
+    100010: mainbody
+    100012: mainbody.001
+    100014: mainbody.002
+    100016: Plane
+    100018: rear rotor
+    100020: rear rotor.001
+    100022: rocket
+    100024: rocket.001
+    100026: rocket.002
+    100028: rocket.003
+    100030: rocket.004
+    100032: rocket.005
+    100034: rocket.006
+    100036: rocket.007
+    100038: rotor
+    100040: spotLight2
+    100042: spotLight3
+    100044: spotLight4
+    400000: //RootNode
+    400002: Cone001
+    400004: Cube.004
+    400006: helicoptero
+    400008: Lights
+    400010: mainbody
+    400012: mainbody.001
+    400014: mainbody.002
+    400016: Plane
+    400018: rear rotor
+    400020: rear rotor.001
+    400022: rocket
+    400024: rocket.001
+    400026: rocket.002
+    400028: rocket.003
+    400030: rocket.004
+    400032: rocket.005
+    400034: rocket.006
+    400036: rocket.007
+    400038: rotor
+    400040: spotLight2
+    400042: spotLight3
+    400044: spotLight4
+    2300000: Cone001
+    2300002: Cube.004
+    2300004: mainbody
+    2300006: mainbody.001
+    2300008: mainbody.002
+    2300010: Plane
+    2300012: rear rotor
+    2300014: rear rotor.001
+    2300016: rocket
+    2300018: rocket.001
+    2300020: rocket.002
+    2300022: rocket.003
+    2300024: rocket.004
+    2300026: rocket.005
+    2300028: rocket.006
+    2300030: rocket.007
+    2300032: rotor
+    3300000: Cone001
+    3300002: Cube.004
+    3300004: mainbody
+    3300006: mainbody.001
+    3300008: mainbody.002
+    3300010: Plane
+    3300012: rear rotor
+    3300014: rear rotor.001
+    3300016: rocket
+    3300018: rocket.001
+    3300020: rocket.002
+    3300022: rocket.003
+    3300024: rocket.004
+    3300026: rocket.005
+    3300028: rocket.006
+    3300030: rocket.007
+    3300032: rotor
+    4300000: Cone001
+    4300002: mainbody.002
+    4300004: rocket
+    4300006: mainbody.001
+    4300008: rear rotor
+    4300010: rocket.007
+    4300012: rocket.006
+    4300014: rocket.005
+    4300016: rocket.004
+    4300018: rocket.003
+    4300020: rocket.002
+    4300022: rocket.001
+    4300024: mainbody
+    4300026: rear rotor.001
+    4300028: rotor
+    4300030: Plane
+    4300032: Cube.004
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
