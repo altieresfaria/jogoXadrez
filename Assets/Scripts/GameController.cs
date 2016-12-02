@@ -21,10 +21,16 @@ using UnityEngine.UI;
     PosicaoXadrez origem, destino;
     Color corOriginal;
 
+    Vector3 posDescarteBrancas, posDescartePretas;
+
 	void Start () {
         estado = Estado.AguardandoJogada;
         pecaEscolhida = null;
         corOriginal = txtMsg.color;
+
+        posDescarteBrancas = new Vector3(-4f, 0f, -2.5f);
+        posDescartePretas = new Vector3(4f, 0f, 2.5f);
+
 
         partida = new PartidaDeXadrez();
 
@@ -78,7 +84,12 @@ using UnityEngine.UI;
                     destino = new PosicaoXadrez(coluna, linha);
 
                     partida.validarPosicaoDeDestino(origem.toPosicao(), destino.toPosicao());
-                    partida.realizaJogada(origem.toPosicao(), destino.toPosicao());
+                    Peca pecaCapturada = partida.realizaJogada(origem.toPosicao(), destino.toPosicao());
+
+                    if (pecaCapturada != null)
+                    {
+                        removerObjetoCapturado(pecaCapturada);
+                    }
 
                     peca.transform.position = Util.posicaoNaCena(coluna, linha);
 
@@ -119,4 +130,17 @@ using UnityEngine.UI;
         txtMsg.color = corOriginal;
         txtMsg.text = "Aguardando jogada: " + partida.jogadorAtual;
     }
+    void removerObjetoCapturado(Peca peca)
+    {
+        GameObject obj = peca.obj;
+                if (peca.cor == Cor.Branca)
+        {
+            obj.transform.position = posDescarteBrancas;
+            posDescarteBrancas.z = posDescarteBrancas.z + 0.9f;
+                    }
+              else {
+            obj.transform.position = posDescartePretas;
+            posDescartePretas.z = posDescartePretas.z - 0.9f;
+                    }
+            }
 }
