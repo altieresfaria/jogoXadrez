@@ -1,0 +1,593 @@
+fileFormatVersion: 2
+guid: c3193b6ff90b8fa4386557e229741a06
+timeCreated: 1480714273
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 1
+    100004: Bip01 Footsteps
+    100006: Bip01 Footsteps 1
+    100008: Bip01 Head
+    100010: Bip01 Head 1
+    100012: Bip01 HeadNub
+    100014: Bip01 HeadNub 1
+    100016: Bip01 L Calf
+    100018: Bip01 L Calf 1
+    100020: Bip01 L Clavicle
+    100022: Bip01 L Clavicle 1
+    100024: Bip01 L Eye
+    100026: Bip01 L Eye 1
+    100028: Bip01 L Finger0
+    100030: Bip01 L Finger0 1
+    100032: Bip01 L Finger01
+    100034: Bip01 L Finger01 1
+    100036: Bip01 L Finger02
+    100038: Bip01 L Finger02 1
+    100040: Bip01 L Finger0Nub
+    100042: Bip01 L Finger0Nub 1
+    100044: Bip01 L Finger1
+    100046: Bip01 L Finger1 1
+    100048: Bip01 L Finger11
+    100050: Bip01 L Finger11 1
+    100052: Bip01 L Finger12
+    100054: Bip01 L Finger12 1
+    100056: Bip01 L Finger1Nub
+    100058: Bip01 L Finger1Nub 1
+    100060: Bip01 L Finger2
+    100062: Bip01 L Finger2 1
+    100064: Bip01 L Finger21
+    100066: Bip01 L Finger21 1
+    100068: Bip01 L Finger22
+    100070: Bip01 L Finger22 1
+    100072: Bip01 L Finger2Nub
+    100074: Bip01 L Finger2Nub 1
+    100076: Bip01 L Finger3
+    100078: Bip01 L Finger3 1
+    100080: Bip01 L Finger31
+    100082: Bip01 L Finger31 1
+    100084: Bip01 L Finger32
+    100086: Bip01 L Finger32 1
+    100088: Bip01 L Finger3Nub
+    100090: Bip01 L Finger3Nub 1
+    100092: Bip01 L Finger4
+    100094: Bip01 L Finger4 1
+    100096: Bip01 L Finger41
+    100098: Bip01 L Finger41 1
+    100100: Bip01 L Finger42
+    100102: Bip01 L Finger42 1
+    100104: Bip01 L Finger4Nub
+    100106: Bip01 L Finger4Nub 1
+    100108: Bip01 L Foot
+    100110: Bip01 L Foot 1
+    100112: Bip01 L Forearm
+    100114: Bip01 L Forearm 1
+    100116: Bip01 L Hand
+    100118: Bip01 L Hand 1
+    100120: Bip01 L Thigh
+    100122: Bip01 L Thigh 1
+    100124: Bip01 L Toe0
+    100126: Bip01 L Toe0 1
+    100128: Bip01 L Toe0Nub
+    100130: Bip01 L Toe0Nub 1
+    100132: Bip01 L UpperArm
+    100134: Bip01 L UpperArm 1
+    100136: Bip01 Neck
+    100138: Bip01 Neck 1
+    100140: Bip01 Neck1
+    100142: Bip01 Neck1 1
+    100144: Bip01 Pelvis
+    100146: Bip01 Pelvis 1
+    100148: Bip01 R Calf
+    100150: Bip01 R Calf 1
+    100152: Bip01 R Clavicle
+    100154: Bip01 R Clavicle 1
+    100156: Bip01 R Eye
+    100158: Bip01 R Eye 1
+    100160: Bip01 R Finger0
+    100162: Bip01 R Finger0 1
+    100164: Bip01 R Finger01
+    100166: Bip01 R Finger01 1
+    100168: Bip01 R Finger02
+    100170: Bip01 R Finger02 1
+    100172: Bip01 R Finger0Nub
+    100174: Bip01 R Finger0Nub 1
+    100176: Bip01 R Finger1
+    100178: Bip01 R Finger1 1
+    100180: Bip01 R Finger11
+    100182: Bip01 R Finger11 1
+    100184: Bip01 R Finger12
+    100186: Bip01 R Finger12 1
+    100188: Bip01 R Finger1Nub
+    100190: Bip01 R Finger1Nub 1
+    100192: Bip01 R Finger2
+    100194: Bip01 R Finger2 1
+    100196: Bip01 R Finger21
+    100198: Bip01 R Finger21 1
+    100200: Bip01 R Finger22
+    100202: Bip01 R Finger22 1
+    100204: Bip01 R Finger2Nub
+    100206: Bip01 R Finger2Nub 1
+    100208: Bip01 R Finger3
+    100210: Bip01 R Finger3 1
+    100212: Bip01 R Finger31
+    100214: Bip01 R Finger31 1
+    100216: Bip01 R Finger32
+    100218: Bip01 R Finger32 1
+    100220: Bip01 R Finger3Nub
+    100222: Bip01 R Finger3Nub 1
+    100224: Bip01 R Finger4
+    100226: Bip01 R Finger4 1
+    100228: Bip01 R Finger41
+    100230: Bip01 R Finger41 1
+    100232: Bip01 R Finger42
+    100234: Bip01 R Finger42 1
+    100236: Bip01 R Finger4Nub
+    100238: Bip01 R Finger4Nub 1
+    100240: Bip01 R Foot
+    100242: Bip01 R Foot 1
+    100244: Bip01 R Forearm
+    100246: Bip01 R Forearm 1
+    100248: Bip01 R Hand
+    100250: Bip01 R Hand 1
+    100252: Bip01 R Thigh
+    100254: Bip01 R Thigh 1
+    100256: Bip01 R Toe0
+    100258: Bip01 R Toe0 1
+    100260: Bip01 R Toe0Nub
+    100262: Bip01 R Toe0Nub 1
+    100264: Bip01 R UpperArm
+    100266: Bip01 R UpperArm 1
+    100268: Bip01 Spine
+    100270: Bip01 Spine 1
+    100272: Bip01 Spine1
+    100274: Bip01 Spine1 1
+    100276: Bip01 Spine2
+    100278: Bip01 Spine2 1
+    100280: Body_001
+    100282: Cone001
+    100284: Drive_sprocket_001
+    100286: Drive_sprocket_003
+    100288: Drive_sprocket_005
+    100290: Drive_sprocket_007
+    100292: Dummy001
+    100294: Front_armor_001
+    100296: Group_001
+    100298: Group_002
+    100300: Group_004
+    100302: Group_006
+    100304: Group_008
+    100306: Lights
+    100308: Lights 1
+    100310: Lights 2
+    100312: Lights 3
+    100314: Lights 4
+    100316: Lights 5
+    100318: Lights 6
+    100320: Lights 7
+    100322: Side_plates_001
+    100324: Side_plates_002
+    100326: Sphere01
+    100328: Sphere01 1
+    100330: spotLight2
+    100332: spotLight2 1
+    100334: spotLight2 2
+    100336: spotLight2 3
+    100338: spotLight2 4
+    100340: spotLight2 5
+    100342: spotLight2 6
+    100344: spotLight2 7
+    100346: spotLight3
+    100348: spotLight3 1
+    100350: spotLight3 2
+    100352: spotLight3 3
+    100354: spotLight3 4
+    100356: spotLight3 5
+    100358: spotLight3 6
+    100360: spotLight3 7
+    100362: spotLight4
+    100364: spotLight4 1
+    100366: spotLight4 2
+    100368: spotLight4 3
+    100370: spotLight4 4
+    100372: spotLight4 5
+    100374: spotLight4 6
+    100376: spotLight4 7
+    100378: //RootNode
+    100380: Tracks_001
+    100382: Tracks_003
+    100384: Turret_001
+    100386: Wheel1_001
+    100388: Wheel1_002
+    100390: Wheel1_003
+    100392: Wheel1_004
+    100394: Wheel1_005
+    100396: Wheel1_006
+    100398: Wheel1_007
+    100400: Wheel1_008
+    100402: Wheel2_001
+    100404: Wheel2_002
+    100406: Wheel2_003
+    100408: Wheel2_004
+    100410: Wheel2_005
+    100412: Wheel2_006
+    100414: Wheel2_007
+    100416: Wheel2_008
+    400000: Bip01
+    400002: Bip01 1
+    400004: Bip01 Footsteps
+    400006: Bip01 Footsteps 1
+    400008: Bip01 Head
+    400010: Bip01 Head 1
+    400012: Bip01 HeadNub
+    400014: Bip01 HeadNub 1
+    400016: Bip01 L Calf
+    400018: Bip01 L Calf 1
+    400020: Bip01 L Clavicle
+    400022: Bip01 L Clavicle 1
+    400024: Bip01 L Eye
+    400026: Bip01 L Eye 1
+    400028: Bip01 L Finger0
+    400030: Bip01 L Finger0 1
+    400032: Bip01 L Finger01
+    400034: Bip01 L Finger01 1
+    400036: Bip01 L Finger02
+    400038: Bip01 L Finger02 1
+    400040: Bip01 L Finger0Nub
+    400042: Bip01 L Finger0Nub 1
+    400044: Bip01 L Finger1
+    400046: Bip01 L Finger1 1
+    400048: Bip01 L Finger11
+    400050: Bip01 L Finger11 1
+    400052: Bip01 L Finger12
+    400054: Bip01 L Finger12 1
+    400056: Bip01 L Finger1Nub
+    400058: Bip01 L Finger1Nub 1
+    400060: Bip01 L Finger2
+    400062: Bip01 L Finger2 1
+    400064: Bip01 L Finger21
+    400066: Bip01 L Finger21 1
+    400068: Bip01 L Finger22
+    400070: Bip01 L Finger22 1
+    400072: Bip01 L Finger2Nub
+    400074: Bip01 L Finger2Nub 1
+    400076: Bip01 L Finger3
+    400078: Bip01 L Finger3 1
+    400080: Bip01 L Finger31
+    400082: Bip01 L Finger31 1
+    400084: Bip01 L Finger32
+    400086: Bip01 L Finger32 1
+    400088: Bip01 L Finger3Nub
+    400090: Bip01 L Finger3Nub 1
+    400092: Bip01 L Finger4
+    400094: Bip01 L Finger4 1
+    400096: Bip01 L Finger41
+    400098: Bip01 L Finger41 1
+    400100: Bip01 L Finger42
+    400102: Bip01 L Finger42 1
+    400104: Bip01 L Finger4Nub
+    400106: Bip01 L Finger4Nub 1
+    400108: Bip01 L Foot
+    400110: Bip01 L Foot 1
+    400112: Bip01 L Forearm
+    400114: Bip01 L Forearm 1
+    400116: Bip01 L Hand
+    400118: Bip01 L Hand 1
+    400120: Bip01 L Thigh
+    400122: Bip01 L Thigh 1
+    400124: Bip01 L Toe0
+    400126: Bip01 L Toe0 1
+    400128: Bip01 L Toe0Nub
+    400130: Bip01 L Toe0Nub 1
+    400132: Bip01 L UpperArm
+    400134: Bip01 L UpperArm 1
+    400136: Bip01 Neck
+    400138: Bip01 Neck 1
+    400140: Bip01 Neck1
+    400142: Bip01 Neck1 1
+    400144: Bip01 Pelvis
+    400146: Bip01 Pelvis 1
+    400148: Bip01 R Calf
+    400150: Bip01 R Calf 1
+    400152: Bip01 R Clavicle
+    400154: Bip01 R Clavicle 1
+    400156: Bip01 R Eye
+    400158: Bip01 R Eye 1
+    400160: Bip01 R Finger0
+    400162: Bip01 R Finger0 1
+    400164: Bip01 R Finger01
+    400166: Bip01 R Finger01 1
+    400168: Bip01 R Finger02
+    400170: Bip01 R Finger02 1
+    400172: Bip01 R Finger0Nub
+    400174: Bip01 R Finger0Nub 1
+    400176: Bip01 R Finger1
+    400178: Bip01 R Finger1 1
+    400180: Bip01 R Finger11
+    400182: Bip01 R Finger11 1
+    400184: Bip01 R Finger12
+    400186: Bip01 R Finger12 1
+    400188: Bip01 R Finger1Nub
+    400190: Bip01 R Finger1Nub 1
+    400192: Bip01 R Finger2
+    400194: Bip01 R Finger2 1
+    400196: Bip01 R Finger21
+    400198: Bip01 R Finger21 1
+    400200: Bip01 R Finger22
+    400202: Bip01 R Finger22 1
+    400204: Bip01 R Finger2Nub
+    400206: Bip01 R Finger2Nub 1
+    400208: Bip01 R Finger3
+    400210: Bip01 R Finger3 1
+    400212: Bip01 R Finger31
+    400214: Bip01 R Finger31 1
+    400216: Bip01 R Finger32
+    400218: Bip01 R Finger32 1
+    400220: Bip01 R Finger3Nub
+    400222: Bip01 R Finger3Nub 1
+    400224: Bip01 R Finger4
+    400226: Bip01 R Finger4 1
+    400228: Bip01 R Finger41
+    400230: Bip01 R Finger41 1
+    400232: Bip01 R Finger42
+    400234: Bip01 R Finger42 1
+    400236: Bip01 R Finger4Nub
+    400238: Bip01 R Finger4Nub 1
+    400240: Bip01 R Foot
+    400242: Bip01 R Foot 1
+    400244: Bip01 R Forearm
+    400246: Bip01 R Forearm 1
+    400248: Bip01 R Hand
+    400250: Bip01 R Hand 1
+    400252: Bip01 R Thigh
+    400254: Bip01 R Thigh 1
+    400256: Bip01 R Toe0
+    400258: Bip01 R Toe0 1
+    400260: Bip01 R Toe0Nub
+    400262: Bip01 R Toe0Nub 1
+    400264: Bip01 R UpperArm
+    400266: Bip01 R UpperArm 1
+    400268: Bip01 Spine
+    400270: Bip01 Spine 1
+    400272: Bip01 Spine1
+    400274: Bip01 Spine1 1
+    400276: Bip01 Spine2
+    400278: Bip01 Spine2 1
+    400280: Body_001
+    400282: Cone001
+    400284: Drive_sprocket_001
+    400286: Drive_sprocket_003
+    400288: Drive_sprocket_005
+    400290: Drive_sprocket_007
+    400292: Dummy001
+    400294: Front_armor_001
+    400296: Group_001
+    400298: Group_002
+    400300: Group_004
+    400302: Group_006
+    400304: Group_008
+    400306: Lights
+    400308: Lights 1
+    400310: Lights 2
+    400312: Lights 3
+    400314: Lights 4
+    400316: Lights 5
+    400318: Lights 6
+    400320: Lights 7
+    400322: Side_plates_001
+    400324: Side_plates_002
+    400326: Sphere01
+    400328: Sphere01 1
+    400330: spotLight2
+    400332: spotLight2 1
+    400334: spotLight2 2
+    400336: spotLight2 3
+    400338: spotLight2 4
+    400340: spotLight2 5
+    400342: spotLight2 6
+    400344: spotLight2 7
+    400346: spotLight3
+    400348: spotLight3 1
+    400350: spotLight3 2
+    400352: spotLight3 3
+    400354: spotLight3 4
+    400356: spotLight3 5
+    400358: spotLight3 6
+    400360: spotLight3 7
+    400362: spotLight4
+    400364: spotLight4 1
+    400366: spotLight4 2
+    400368: spotLight4 3
+    400370: spotLight4 4
+    400372: spotLight4 5
+    400374: spotLight4 6
+    400376: spotLight4 7
+    400378: //RootNode
+    400380: Tracks_001
+    400382: Tracks_003
+    400384: Turret_001
+    400386: Wheel1_001
+    400388: Wheel1_002
+    400390: Wheel1_003
+    400392: Wheel1_004
+    400394: Wheel1_005
+    400396: Wheel1_006
+    400398: Wheel1_007
+    400400: Wheel1_008
+    400402: Wheel2_001
+    400404: Wheel2_002
+    400406: Wheel2_003
+    400408: Wheel2_004
+    400410: Wheel2_005
+    400412: Wheel2_006
+    400414: Wheel2_007
+    400416: Wheel2_008
+    2300000: Body_001
+    2300002: Cone001
+    2300004: Drive_sprocket_001
+    2300006: Drive_sprocket_003
+    2300008: Drive_sprocket_005
+    2300010: Drive_sprocket_007
+    2300012: Front_armor_001
+    2300014: Group_002
+    2300016: Group_004
+    2300018: Group_006
+    2300020: Group_008
+    2300022: Side_plates_001
+    2300024: Side_plates_002
+    2300026: Sphere01
+    2300028: Sphere01 1
+    2300030: Tracks_001
+    2300032: Tracks_003
+    2300034: Turret_001
+    2300036: Wheel1_001
+    2300038: Wheel1_002
+    2300040: Wheel1_003
+    2300042: Wheel1_004
+    2300044: Wheel1_005
+    2300046: Wheel1_006
+    2300048: Wheel1_007
+    2300050: Wheel1_008
+    2300052: Wheel2_001
+    2300054: Wheel2_002
+    2300056: Wheel2_003
+    2300058: Wheel2_004
+    2300060: Wheel2_005
+    2300062: Wheel2_006
+    2300064: Wheel2_007
+    2300066: Wheel2_008
+    3300000: Body_001
+    3300002: Cone001
+    3300004: Drive_sprocket_001
+    3300006: Drive_sprocket_003
+    3300008: Drive_sprocket_005
+    3300010: Drive_sprocket_007
+    3300012: Front_armor_001
+    3300014: Group_002
+    3300016: Group_004
+    3300018: Group_006
+    3300020: Group_008
+    3300022: Side_plates_001
+    3300024: Side_plates_002
+    3300026: Sphere01
+    3300028: Sphere01 1
+    3300030: Tracks_001
+    3300032: Tracks_003
+    3300034: Turret_001
+    3300036: Wheel1_001
+    3300038: Wheel1_002
+    3300040: Wheel1_003
+    3300042: Wheel1_004
+    3300044: Wheel1_005
+    3300046: Wheel1_006
+    3300048: Wheel1_007
+    3300050: Wheel1_008
+    3300052: Wheel2_001
+    3300054: Wheel2_002
+    3300056: Wheel2_003
+    3300058: Wheel2_004
+    3300060: Wheel2_005
+    3300062: Wheel2_006
+    3300064: Wheel2_007
+    3300066: Wheel2_008
+    4300000: Cone001
+    4300002: Sphere01
+    4300004: Sphere01
+    4300006: Tracks_003
+    4300008: Body_001
+    4300010: Tracks_001
+    4300012: Group_002
+    4300014: Group_004
+    4300016: Wheel2_002
+    4300018: Side_plates_001
+    4300020: Side_plates_002
+    4300022: Wheel1_001
+    4300024: Wheel2_005
+    4300026: Wheel1_006
+    4300028: Drive_sprocket_005
+    4300030: Group_006
+    4300032: Front_armor_001
+    4300034: Drive_sprocket_001
+    4300036: Group_008
+    4300038: Wheel2_003
+    4300040: Wheel2_004
+    4300042: Wheel2_006
+    4300044: Wheel2_007
+    4300046: Wheel2_008
+    4300048: Drive_sprocket_007
+    4300050: Wheel1_008
+    4300052: Wheel2_001
+    4300054: Wheel1_003
+    4300056: Wheel1_004
+    4300058: Wheel1_002
+    4300060: Drive_sprocket_003
+    4300062: Wheel1_005
+    4300064: Wheel1_007
+    4300066: Turret_001
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
