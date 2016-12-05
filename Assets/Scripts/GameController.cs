@@ -180,7 +180,7 @@ using UnityEngine.UI;
             posDescartePretas.z = posDescartePretas.z - 0.9f;
                     }
             }
-
+     
     void tratarJogadasEspeciais ()   {
         Posicao pos = destino.toPosicao();
         Peca pecaMovida = partida.tab.peca(pos);
@@ -198,6 +198,16 @@ using UnityEngine.UI;
             GameObject torre = partida.tab.peca(pos.linha, pos.coluna + 1).obj;
             torre.transform.position = Util.posicaoNaCena('d', origem.linha);
         }
-    }
 
+        // #Jogada Especial Promocao
+
+        if (partida.promovida != null)
+        {
+            removerObjetoCapturado(partida.promovida);
+            Vector3 posPromovida = Util.posicaoNaCena(destino.coluna, destino.linha);
+            GameObject prefab = (pecaMovida.cor == Cor.Branca) ? damaBranca : damaPreta;
+            GameObject dama = Instantiate(prefab, posPromovida, Quaternion.identity) as GameObject;
+            pecaMovida.obj = dama;
+        }
+    }
 }

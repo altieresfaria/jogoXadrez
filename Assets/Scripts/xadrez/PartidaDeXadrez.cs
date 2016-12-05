@@ -13,6 +13,7 @@ namespace xadrez {
         private HashSet<Peca> capturadas;
         public bool xeque { get; private set;  }
         public  Peca vulneravelEnPassant { get; private set; }
+        public Peca promovida { get; private set; }
 
         public PartidaDeXadrez() {
             tab = new Tabuleiro(8, 8);
@@ -23,6 +24,7 @@ namespace xadrez {
             vulneravelEnPassant = null;
             pecas = new HashSet<Peca>();
             capturadas = new HashSet<Peca>();
+            promovida = null;
         }
 
         public Peca executaMovimento(Posicao origem, Posicao destino) {
@@ -121,10 +123,13 @@ namespace xadrez {
             }
 
             Peca p = tab.peca(destino);
+
             //#JOGADA ESPECIAL: Promocao
+            promovida = null;
             if (p is Peao) {
                 if ((p.cor == Cor.Branca && destino.linha == 0) || (p.cor == Cor.Preta && destino.linha == 7)) {
                     p = tab.retirarPeca(destino);
+                    promovida = p;
                     pecas.Remove(p);
                     Peca dama = new Dama(tab, p.cor, null);
                     tab.colocarPeca(dama, destino);
