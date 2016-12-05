@@ -128,6 +128,8 @@ using UnityEngine.UI;
 
                     peca.transform.position = Util.posicaoNaCena(coluna, linha);
 
+                    tratarJogadasEspeciais();
+
                     pecaEscolhida = null;
 
                     if (partida.terminada)
@@ -178,4 +180,24 @@ using UnityEngine.UI;
             posDescartePretas.z = posDescartePretas.z - 0.9f;
                     }
             }
+
+    void tratarJogadasEspeciais ()   {
+        Posicao pos = destino.toPosicao();
+        Peca pecaMovida = partida.tab.peca(pos);
+
+        // #Jogada Especial Roque Pequeno
+        if (pecaMovida is Rei && destino.coluna == origem.coluna + 2)
+        {
+            GameObject torre = partida.tab.peca(pos.linha, pos.coluna - 1).obj;
+            torre.transform.position = Util.posicaoNaCena('f', origem.linha);
+        }
+
+        // #Jogada Especial Roque Grande
+        if (pecaMovida is Rei && destino.coluna == origem.coluna - 2)
+        {
+            GameObject torre = partida.tab.peca(pos.linha, pos.coluna + 1).obj;
+            torre.transform.position = Util.posicaoNaCena('d', origem.linha);
+        }
+    }
+
 }
