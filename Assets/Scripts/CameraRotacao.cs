@@ -30,7 +30,7 @@ public class CameraRotacao : MonoBehaviour {
 	void Update () {
         if (indoParaBranca)
         {
-            if (Vector3.Distance(transform.position, posBranca) > 5f)
+            if (Vector3.Distance(transform.position, posBranca) > 20f)
             {
                 transform.RotateAround(Vector3.zero, Vector3.up, velocidadeAngular * Time.deltaTime);
 
@@ -44,7 +44,7 @@ public class CameraRotacao : MonoBehaviour {
         }
                 if (indoParaPreta)
         {
-            if (Vector3.Distance(transform.position, posPreta) > 5f)
+            if (Vector3.Distance(transform.position, posPreta) > 20f)
             {
                 transform.RotateAround(Vector3.zero, Vector3.up, velocidadeAngular * Time.deltaTime);
 
