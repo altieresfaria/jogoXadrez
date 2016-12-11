@@ -103,11 +103,13 @@ using System.Collections.Generic;
                     pecaEscolhida = obj;
                     estado = Estado.Arrastando;
                     txtMsg.text = "Selecione a casa de destino";
+                    GameObject.Find("somClique").GetComponent<AudioSource>().Play();
                     instanciarParticulas();
                 }
                 catch (TabuleiroException e)
                 {
                     informarAviso(e.Message);
+                    GameObject.Find("somErro").GetComponent<AudioSource>().Play();
                 }
             }
         }
@@ -137,6 +139,11 @@ using System.Collections.Generic;
                     if (pecaCapturada != null)
                     {
                         removerObjetoCapturado(pecaCapturada);
+                        GameObject.Find("somCaptura").GetComponent<AudioSource>().Play();
+                    }
+                    else
+                    {
+                        GameObject.Find("somClique").GetComponent<AudioSource>().Play();
                     }
 
                     pecaEscolhida.transform.position = Util.posicaoNaCena(coluna, linha);
@@ -165,6 +172,7 @@ using System.Collections.Generic;
                     pecaEscolhida.transform.position = Util.posicaoNaCena(origem.coluna, origem.linha);
                     estado = Estado.AguardandoJogada;
                     informarAviso(e.Message);
+                    GameObject.Find("somErro").GetComponent<AudioSource>().Play();
                 }
                 finally
                 {
@@ -247,7 +255,7 @@ using System.Collections.Generic;
     void instanciarParticulas()
     {
         listaParticulas.Clear();
-        float y = 0.67f; 
+        float y = 0.7f; 
 
         bool[,] mat = partida.tab.peca(origem.toPosicao()).movimentosPossiveis();
         for (int i=0; i<partida.tab.linhas; i++)
